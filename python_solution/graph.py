@@ -234,7 +234,7 @@ g5 = Graph.create(
 		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	]
 )
-print(g5.find_max_bunnies_in_end_vertices())
+# print(g5.find_max_bunnies_in_end_vertices())
 # Answer is 73
 
 # g6 = Graph.create(
@@ -256,3 +256,18 @@ print(g5.find_max_bunnies_in_end_vertices())
 # )
 #
 # print(g6.find_max_bunnies_in_end_vertices())
+
+g7 = Graph.create(
+	[0],
+	[5],
+	[
+		[0, 5, 5, 0, 0, 0],
+		[11, 0, 1, 0, 0, 0],
+		[8, 3, 0, 4, 3, 0],
+		[0, 12, 5, 0, 7, 5],
+		[0, 0, 11, 0, 0, 0],
+		[0, 0, 0, 15, 4, 0]
+	]
+)
+
+print(g7.find_max_bunnies_in_end_vertices())
